@@ -16,7 +16,8 @@
 
     body {
       font-family: 'DM Sans', sans-serif;
-      background: var(--cream);
+      /* background: var(--cream); */
+      background: #f8f5f0;      
       color: var(--text);
       min-height: 100vh;
     }
@@ -157,7 +158,7 @@
       align-items: center;
       justify-content: center;
       /* background: linear-gradient(135deg, #e8ddd3 0%, #d4c5b5 100%); */
-      background: #faf7f2;
+      background: #f8f5f0;
       color: var(--muted);
       font-family: 'Cormorant Garamond', serif;
       font-size: 60px;
