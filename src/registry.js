@@ -1,3 +1,4 @@
+import { decryptedNumber } from "./main.js";
 const imageBasePath = "/images";
 
 export const itemRegistry = [
@@ -10,7 +11,7 @@ export const itemRegistry = [
     imageUrl: `${imageBasePath}/nazar1.png`,
     imageAlt: "Evil eye wall decor",
     orderUrl:
-      "https://wa.me/9366415772?text=Hi%2C%20I%27m%20interested%20in%20buying%20the%20Evil%20Eye%20Wall%20Decor%20from%20your%20crochet%20store",
+      `https://wa.me/${decryptedNumber()}?text=Hi%2C%20I%27m%20interested%20in%20buying%20the%20Evil%20Eye%20Wall%20Decor%20from%20your%20crochet%20store`,
   },
   {
     name: "Cute Chick Key Chain",
@@ -21,7 +22,7 @@ export const itemRegistry = [
     imageUrl: `${imageBasePath}/chicken_keychain1.png`,
     imageAlt: "Cute chick key chain",
     orderUrl:
-      "https://wa.me/9366415772?text=Hi%20I%27d%20like%20to%20order%20the%20*Cute%20Chicken%20Keychain*%20from%20your%20crochet%20Store",
+      `https://wa.me/${decryptedNumber()}?text=Hi%20I%27d%20like%20to%20order%20the%20*Cute%20Chicken%20Keychain*%20from%20your%20crochet%20Store`,
   },
   {
     name: "Chai Sutta Keychain",
@@ -32,7 +33,7 @@ export const itemRegistry = [
     imageUrl: `${imageBasePath}/sutta_keychain.png`,
     imageAlt: "Chai sutta keychain",
     orderUrl:
-      "https://wa.me/xxxxxxxxxx?text=Hi%2C%20I'm%20interested%20in%20the%20*chai%20sutta%20keychain*%20form%20your%20crochet%20store.",
+      `https://wa.me/${decryptedNumber()}?text=Hi%2C%20I'm%20interested%20in%20the%20*chai%20sutta%20keychain*%20form%20your%20crochet%20store.`,
     tag: "New",
   },
   {
@@ -44,7 +45,7 @@ export const itemRegistry = [
     imageUrl: `${imageBasePath}/bouquet1.png`,
     imageAlt: "Crochet bouquet",
     orderUrl:
-      "https://wa.me/xxxxxxxxxx?text=Hi%2C%20I%20would%20like%20to%20order%20a%20custom%20bouquet%20form%20your%20crochet%20store.",
+      `https://wa.me/${decryptedNumber()}?text=Hi%2C%20I%20would%20like%20to%20order%20a%20custom%20bouquet%20form%20your%20crochet%20store.`,
     tag: "Custom",
   },
   {
@@ -55,7 +56,7 @@ export const itemRegistry = [
     imageUrl: `${imageBasePath}/scarf1.png`,
     imageAlt: "Custom crochet scarf",
     orderUrl:
-      "https://wa.me/xxxxxxxxxx?text=Hi%2C%20I'm%20interested%20in%20the%20*custom%20scarf*%20form%20your%20crochet%20store.",
+      `https://wa.me/${decryptedNumber()}?text=Hi%2C%20I'm%20interested%20in%20the%20*custom%20scarf*%20form%20your%20crochet%20store.`,
     tag: "Custom",
   },
   {
@@ -67,7 +68,7 @@ export const itemRegistry = [
     imageUrl: `${imageBasePath}/phone_cover1.png`,
     imageAlt: "Custom crochet phone cover",
     orderUrl:
-      "https://wa.me/xxxxxxxxxx?text=Hi%2C%20I'm%20interested%20in%20a%20*Custom%20Phone%20Cover*%20form%20your%20crochet%20store.",
+      `https://wa.me/${decryptedNumber()}?text=Hi%2C%20I'm%20interested%20in%20a%20*Custom%20Phone%20Cover*%20form%20your%20crochet%20store.`,
     tag: "Custom",
   },
 ];

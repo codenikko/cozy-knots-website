@@ -1,0 +1,2 @@
+export const ENCRYPTED_TEXT = "lC+ChBIayMToVpVDK1SA5rZhr3YjNWxYBuRnqzDhPZ7bTuC9/f4=";
+export const ENCRYPTION_KEY = "tFZ/eYdNSwGIZCqF/Yh08rGoGXAOJxjwf31cCrEW5x8=";
