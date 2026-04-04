@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Metadata files
+*:Zone.Identifier
+
+# Editor directories and files
+.vscode
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.env
+test-ground.html
+planner.txt
+temp.txt
+temp.js
+promo
+todo.txt
+build-stats.html
+.htmlhintrc
+node_modules
+dist
+dist-ssr
+*.local
+example-result.json
+music-player-enhancement-plan.md
+test.html
+test-timer.html

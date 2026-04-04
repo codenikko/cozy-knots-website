@@ -1,0 +1,24 @@
+{
+  "name": "cozy-knots-website",
+  "version": "1.0.0",
+  "description": "a simple website to sell crochet ",
+  "homepage": "https://github.com/codenikko/cozy-knots-website#readme",
+  "bugs": {
+    "url": "https://github.com/codenikko/cozy-knots-website/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codenikko/cozy-knots-website.git"
+  },
+  "license": "ISC",
+  "author": "codenikko, beastdora",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "dependencies": {
+    "terser": "^5.46.1",
+    "vite": "^8.0.3"
+  }
+}
