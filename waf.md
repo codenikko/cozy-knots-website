@@ -1,1 +1,0 @@
-can you search vercel.json vite.config.js package.json to see if there is something that is making my vercel deployment go 404? Could it be that I changed the project from static (on vercel setup) and now later added vite?
